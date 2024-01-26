@@ -1,0 +1,328 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/burger-king-bg.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.lorders-page {
+  text-align: center;
+  margin: 0;
+}
+
+.lorders-img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.lorders-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.lorders-wrap {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto 30px auto;
+}
+
+.lorders-content {
+  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.1);
+  border-radius: 5px;
+  width: 100%;
+  background: white;
+  display: grid;
+  grid-template-columns: auto 320px;
+  overflow: hidden;
+}
+
+.lorders-wrap form {
+  padding: 24px 0;
+}
+
+.form-wrap {
+  background-color: #FFFFFF;
+  padding: 12px 24px;
+  font-weight: normal;
+  font-family: "Flame-Bold";
+}
+
+.form-wrap h2 {
+  margin: 0;
+  text-align: start;
+  line-height: 1;
+  margin-bottom: 24px;
+  color: #502314;
+  font-size: 32px;
+  font-family: "Flame-Bold";
+}
+
+.form-wrap h3 {
+  margin: 0;
+  text-align: start;
+  font-size: 17px;
+  margin-bottom: 12px;
+  font-family: "Flame-Regular";
+  font-weight: normal;
+  color: #502314;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  background-color: #f9f4f2;
+  margin-bottom: 12px;
+  padding: 8px 8px 8px 24px;
+  border-radius: 4px;
+}
+
+.product label {
+  text-align: start;
+  flex-grow: 1;
+  font-family: "Flame-Regular";
+}
+
+.product input {
+  font: 15px "Flame-Sans";
+  width: 100px;
+  margin: 0;
+  padding: 6px 12px;
+  text-align: center;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.lorders-content hr {
+  height: 18px;
+  background-color: #f9f4f2;
+  border: none;
+  margin: 0;
+}
+
+.name-phone {
+  display: flex;
+}
+
+.split-name {
+  flex-grow: 1;
+}
+
+.split-name input {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.split-phone {
+  position: relative;
+  width: 220px;
+  margin-left: 12px;
+}
+
+.split-phone .code {
+  position: absolute;
+  left: 15px;
+  top: 8px;
+  font-family: "Flame-Sans";
+  line-height: 1.6;
+  color: #404040;
+}
+
+.split-phone input {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px 10px 45px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.email-ttl {
+  display: flex;
+}
+
+.split-email {
+  flex-grow: 1;
+}
+
+.split-email input {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.split-ttl {
+  position: relative;
+  width: 220px;
+  margin-left: 12px;
+}
+
+.split-ttl input {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+textarea {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.jenis-acara {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.time-date {
+  display: flex;
+}
+
+.split-time {
+  flex-grow: 1;
+}
+
+.split-time select {
+  width: 100%;
+  padding: 0px;
+  background: #FFFFFF;
+  border: 1px solid #e0e0e0;
+  height: 42px;
+  text-indent: 8px;
+  font: 15px "Flame-Sans";
+  color: #919191;
+}
+option {
+  font-weight: normal;
+  display: block;
+  min-height: 1.2em;
+  padding: 0px 2px 1px;
+  white-space: nowrap;
+}
+
+.split-date {
+  position: relative;
+  width: 220px;
+  margin-left: 12px;
+}
+
+.split-date input {
+  font: 15px "Flame-Sans";
+  width: 100%;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  color: #404040;
+  box-sizing: border-box;
+}
+
+.lorders-button {
+  font: 18px "Flame-Regular";
+  padding: 10px;
+  background-color: #ed7801;
+  width: 100%;
+  color: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact {
+  background: #502314;
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-wrap {
+  flex-grow: 1;
+  padding: 12px 24px;
+}
+
+.contact-text {
+  margin: 80px 0 17px 0;
+  font-size: 17px;
+  text-align: start;
+  margin-bottom: 12px;
+  font-family: "Flame-Regular";
+  color: #FFFFFF;
+}
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px dashed white;
+  padding: 16px 0;
+  text-decoration: none;
+  outline: none;
+}
+
+.contact-us svg {
+  width: 22px;
+  margin-right: 12px;
+  color: #EC7A23;
+}
+
+.contact-us h3 {
+  margin: 0;
+  color: #EC7A23;
+  font: 17px "Flame-Regular";
+}
+
+article {
+  color: white;
+  font: 12px "Flame-Sans";
+  line-height: 1.6;
+  font-weight: bold;
+  text-align: start;
+  margin-top: 12px;
+}
+
+/* hide dropdown type number */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+input[type="number"] {
+  -ms-appearance: textfield;
+}
+

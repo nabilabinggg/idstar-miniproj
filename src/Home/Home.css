@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/burger-king-bg.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.title-home h2{
+  font-family: "Flame-Bold";
+  color: #8b542f;
+  font-weight: normal;
+  text-align: center;
+  font-size: 32px;
+}
+
+.landing-page {
+  text-align: center;
+  margin: 0;
+}
+
+.card-wrap {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu-home {
+  width: 30%;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 15px -4px #6b6b6b;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  text-decoration: none;
+  outline: none;
+}
+
+.menu-home img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.menu-name h3 {
+  font-family: "Flame-Bold";
+  color: #8b542f;
+  font-weight: normal;
+  line-height: 1.2;
+  font-size: 21px;
+  width: 50%;
+  text-align: left;
+  margin: 0;
+}
+
+.menu-name button {
+  background-color: #ed7801;
+  width: 46%;
+  height: 45%;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font: 16px "Flame-Regular";
+  padding: 5px 0;
+  line-height: 1.6;
+}

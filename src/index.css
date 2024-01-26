@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Flame-Sans';
+  src: local('Flame-Sans'), url('/public/fonts/Flame-Sans.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flame-Bold';
+  src: local('Flame-Bold'), url('/public/fonts/Flame-Bold.otf') format('opentype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Flame-Regular';
+  src: local('Flame-Regular'), url('/public/fonts/Flame-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  background-image: url('/public/burger-king-bg.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}

@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('/public/burger-king-bg.jpg'); 
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.news-page {
+  text-align: center;
+  margin: 0;
+}
+
+section.news-wrap {
+  max-width: 960px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 0px;
+}
+
+.news-wrap img {
+  width: 100%;
+}

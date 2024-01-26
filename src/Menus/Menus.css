@@ -1,0 +1,168 @@
+.menus {
+  text-align: center;
+  margin: 0;
+}
+
+.menu-wrap {
+  max-width: 960px;
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+
+.left {
+  width: 21%;
+  text-align: left;
+  margin-right: 4%;
+}
+
+.search {
+  margin: 30px 0 40px 0;
+  width: 100%;
+  display: flex;
+  position: relative;
+}
+
+.search input {
+  flex: 1;
+  padding: 12px 20px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 8px -2px rgba(107, 107, 107, 0.3);
+  border: none;
+  font: 15px "Flame-Sans";
+  width: 60%;
+  line-height: 1.6;
+  color: #404040;
+}
+
+.search-wrap {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-button {
+  background-color: #ed7801;
+  color: #ffffff;
+  border: none;
+  border-radius: 0 9px 9px 0;
+  cursor: pointer;
+  padding: 0 10px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.search-button svg {
+  font-size: 16px;
+  padding: 4px;
+}
+
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+.button-categories {
+  width: 100%;
+  margin: 0 0 8px 0;
+  position: relative;
+}
+
+.button-categories button:active {
+  background-color: #faaf18;
+}
+
+.button-categories button {
+  width: 100%;
+  height: 60px; 
+  padding: 10px 15px;
+  font-size: 18px;
+  font-weight: normal;
+  font-family: "Flame-Regular";
+  text-transform: capitalize;
+  text-align: left;
+  background-color: #fbe6d6;
+  color: #502314;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+.pajak {
+  font-size: 10px;
+  color: #919191;
+  margin-left: 7px;
+  font-family: "Flame-Sans";
+  font-weight: bold;
+}
+
+.right {
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 0px;
+}
+
+.list-menu {
+  width: 48%;
+  padding: 20px;
+  background-color: #FFFFFF;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: 2px 2px 15px -4px #6b6b6b;
+  margin: 0 2% 2% 0;
+}
+
+.list-menu img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.menu-title {
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.menu-title h4 {
+  font-family: "Flame-Regular";
+  font-weight: normal;
+  color: #502314;
+  text-transform: capitalize;
+  text-align: left;
+  font-size: 23px;
+  width: 100%;
+  text-align: left;
+  margin: 0;
+}
+
+.price {
+  display: flex;
+  align-items: flex-end;
+}
+
+.price .discount {
+  font-family: "Flame-Regular";
+  font-size: 17px;
+  color: #D72300;
+  margin: 0 4px 0 0;
+  float: left;
+}
+
+.price .original {
+  font-family: "Flame-Regular";
+  text-decoration: line-through;
+  font-size: 14px;
+  color: #9F816F;
+  font-weight: bold;
+  margin-bottom: 2px;
+}

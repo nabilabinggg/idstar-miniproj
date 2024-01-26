@@ -12,7 +12,7 @@ function Menus() {
       <section className="menu-wrap">
         <Side_Nav />
         <div className="right">
-          <div className="list-menu">
+        <Link to="/products" className="list-menu">
             <img src="/menu-1.jpeg"></img>
             <div className="menu-title">
               <h4>App Exc Ayam + Nasi</h4>
@@ -21,8 +21,8 @@ function Menus() {
                 <span className="original">28,636</span>
               </div>
             </div>
-          </div>
-          <div className="list-menu">
+          </Link>
+          <Link to="/products" className="list-menu">
             <img src="/menu-1.jpeg"></img>
             <div className="menu-title">
               <h4>App Exc Ayam + Nasi</h4>
@@ -31,8 +31,8 @@ function Menus() {
                 <span className="original">28,636</span>
               </div>
             </div>
-          </div>
-          <div className="list-menu">
+          </Link>
+          <Link to="/products" className="list-menu">
             <img src="/menu-1.jpeg"></img>
             <div className="menu-title">
               <h4>App Exc Ayam + Nasi</h4>
@@ -41,8 +41,8 @@ function Menus() {
                 <span className="original">28,636</span>
               </div>
             </div>
-          </div>
-          <div className="list-menu">
+          </Link>
+          <Link to="/products" className="list-menu">
             <img src="/menu-1.jpeg"></img>
             <div className="menu-title">
               <h4>App Exc Ayam + Nasi</h4>
@@ -51,7 +51,7 @@ function Menus() {
                 <span className="original">28,636</span>
               </div>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
       <Footer />

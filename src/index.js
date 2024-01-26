@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider, Route } from 'react-router-dom';
 import Menus from './Menus/Menus';
 import News from './News/News';
 import LargeOrders from './Large_Orders/Large_Orders';
+import Product from './Product/Product';
 
 const router = createBrowserRouter([
   {
@@ -25,8 +26,8 @@ const router = createBrowserRouter([
     element: <LargeOrders />,
   },
   {
-    path: "/accounts/login",
-    element: <Home />,
+    path: "/products",
+    element: <Product />,
   },
 ])
 
